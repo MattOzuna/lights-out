@@ -16,13 +16,14 @@ it('should render properly', ()=>{
 
 it('should match snapshot of a lit Cell', ()=>{
     const {asFragment} = render(        
-    <table>
-        <tbody>
-            <tr>
-                <Cell isLit={true}/>
-            </tr>
-        </tbody>
-    </table>)
+        <table>
+            <tbody>
+                <tr>
+                    <Cell isLit={true}/>
+                </tr>
+            </tbody>
+        </table>
+    )
     expect(asFragment()).toMatchSnapshot()
 })
 

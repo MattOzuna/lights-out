@@ -1,43 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should match snapshot 1`] = `
+exports[`should match snapshot of non winning game 1`] = `
 <DocumentFragment>
   <table>
     <tbody>
       <tr>
         <td
           class="Cell "
+          id="00"
         />
         <td
           class="Cell "
+          id="01"
         />
         <td
           class="Cell "
-        />
-      </tr>
-      <tr>
-        <td
-          class="Cell "
-        />
-        <td
-          class="Cell "
-        />
-        <td
-          class="Cell "
+          id="02"
         />
       </tr>
       <tr>
         <td
           class="Cell "
+          id="10"
         />
         <td
           class="Cell "
+          id="11"
         />
         <td
           class="Cell "
+          id="12"
+        />
+      </tr>
+      <tr>
+        <td
+          class="Cell "
+          id="20"
+        />
+        <td
+          class="Cell "
+          id="21"
+        />
+        <td
+          class="Cell "
+          id="22"
         />
       </tr>
     </tbody>
   </table>
+</DocumentFragment>
+`;
+
+exports[`should match snapshot of winning game 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      You Win!
+    </h1>
+  </div>
 </DocumentFragment>
 `;

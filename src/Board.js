@@ -106,6 +106,7 @@ function Board({ nrows=3, ncols=3, chanceLightStartsOn=.5 }) {
               <Cell 
                 isLit={val} 
                 flipCellsAroundMe={()=>flipCellsAround(`${y}-${x}`)}
+                id={`${y}${x}`}
                 key={x}
               />
             ))}          
