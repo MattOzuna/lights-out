@@ -38,7 +38,7 @@ function Board({ nrows=3, ncols=3, chanceLightStartsOn=.5 }) {
     for(let i = 0; i < nrows; i++){
       let col = [];
       for (let k = 0; k < ncols; k++){
-        if(Math.random() > chanceLightStartsOn) col.push(true)
+        if(Math.random() < chanceLightStartsOn) col.push(true)
         else col.push(false)
       }
       initialBoard.push(col)

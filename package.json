@@ -11,7 +11,10 @@
     "react-scripts": "*",
     "web-vitals": "*"
   },
-  "devDependencies": {"@babel/plugin-proposal-private-property-in-object": "*"},
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "*",
+    "@testing-library/jest-dom": "^6.4.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
