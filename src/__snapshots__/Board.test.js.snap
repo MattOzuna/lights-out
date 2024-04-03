@@ -6,43 +6,43 @@ exports[`should match snapshot of non winning game 1`] = `
     <tbody>
       <tr>
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="00"
         />
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="01"
         />
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="02"
         />
       </tr>
       <tr>
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="10"
         />
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="11"
         />
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="12"
         />
       </tr>
       <tr>
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="20"
         />
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="21"
         />
         <td
-          class="Cell "
+          class="Cell Cell-lit"
           id="22"
         />
       </tr>

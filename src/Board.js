@@ -52,9 +52,9 @@ function Board({ nrows=3, ncols=3, chanceLightStartsOn=.5 }) {
   function hasWon() {
     return board.reduce((acc, row) => {
       const rowVal = row.reduce((acc, val) => {
-        if(val && acc) return true
+        if(!val && acc) return true
         return false
-      })
+      },true)
       if(rowVal && acc) return true
       return false
     }, true)
@@ -90,7 +90,7 @@ function Board({ nrows=3, ncols=3, chanceLightStartsOn=.5 }) {
   // if the game is won, just show a winning msg & render nothing else
   if(hasWon()){
     return(
-      <div>
+      <div className="Board">
         <h1>You Win!</h1>
       </div>
     )
@@ -98,7 +98,7 @@ function Board({ nrows=3, ncols=3, chanceLightStartsOn=.5 }) {
 
   // make table board
   return (
-    <table>
+    <table className="Board">
       <tbody>
       {board.map((row, y) => (
           <tr key={y}>
